@@ -1,0 +1,65 @@
+body{
+    
+}
+
+/*Design By Pankaj Jasoria | 20th Feb 2014 |  Bottom Ticker*/
+#sc_news{    
+    position:fixed;
+    bottom:0px;
+    left:50%;
+    margin-left:-500px;
+    z-index:5555;
+    width:980px;
+}
+.bottomTicker{
+    float:left;
+    width:100%;   
+    position:relative;    
+    overflow:hidden;
+    background:url(../images/bg_transparent.png) left top repeat;    
+    padding:10px;
+    border-top-left-radius:10px;
+    border-top-right-radius:10px;    
+    display:none;
+}
+.bottomTicker marquee{
+    float:left;
+    width:800px;
+}
+.bottomTicker>a{
+    float:right;    
+    background:url(../images/bg_tickerClose.png) left top no-repeat;
+    width:30px;
+    height:31px;
+    margin-top:10px;
+}
+.bottomTicker .nav{
+    float:left;
+}
+.bottomTicker .nav a{
+    display:block;
+    width:22px;
+    height:22px;
+    margin-bottom:1px;    
+}
+.bottomTicker .nav a:nth-child(1){
+    background:url(../images/b_topTicker.gif) left top no-repeat;    
+}
+.bottomTicker .nav a:nth-child(2){
+    background:url(../images/b_bottomTicker.gif) left top no-repeat;    
+}
+.bottomTicker .news{
+    position:absolute;
+    width:88%;    
+    font-size:20px;
+    font-family: trebuchet ms, 'ubuntu';
+    color:#fff;
+    left:55px;
+    top:0px;
+}
+.bottomTicker .news div{
+    padding:20px 0;    
+}
+.bottomTicker .news div a{
+    color:#007acc;    
+}
